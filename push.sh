@@ -2,7 +2,7 @@ if [  $1!='' ]
 then
    msg=$1;
 else
-   msg='modify'
+   msg="modify"
 fi
 
 git add -A   

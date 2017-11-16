@@ -38,5 +38,3 @@ grep使用的是正则表达式元字符的基本集，egrep使用的是正则�
 例：grep ^root filename			显示文件中以"root"开头的行
     grep '[a-z]\{5\} filename		显示文件中包含至少有5个以上字符的单词的行
     egrep '[a-z]{5} filename		相当于grep '[a-z]\{5\} filename
-
-5、使用管道的grep
